@@ -1,16 +1,35 @@
 {
   "name": "whatsapp-automation",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "מערכת אוטומציה מתקדמת ל-WhatsApp עם תמיכה בשליחה המונית טבעית ורשימות תפוצה",
+  "main": "sendMessage.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "send": "node sendMessageCLI.js",
+    "bulk": "node bulkSender.js",
+    "manage-lists": "node listManager.js",
+    "advanced": "node advancedFeatures.js",
+    "test": "echo \"WhatsApp Automation System - Ready!\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "whatsapp",
+    "automation",
+    "bulk-sender",
+    "messaging",
+    "whatsapp-web",
+    "marketing",
+    "hebrew"
+  ],
+  "author": "Elad Jakobovits (created with Claude Code)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eladjak/whatsapp-automation.git"
+  },
   "dependencies": {
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.34.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

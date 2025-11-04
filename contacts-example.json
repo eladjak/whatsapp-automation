@@ -1,0 +1,26 @@
+[
+    {
+        "name": "יוסי כהן",
+        "firstName": "יוסי",
+        "lastName": "כהן",
+        "phone": "972501234567",
+        "company": "חברת הייטק בע\"מ",
+        "customField": "לקוח VIP"
+    },
+    {
+        "name": "שרה לevi",
+        "firstName": "שרה",
+        "lastName": "לevi",
+        "phone": "972521234567",
+        "company": "סטארטאפ חדשני",
+        "customField": "פגישה בשבוע הבא"
+    },
+    {
+        "name": "דוד מזרחי",
+        "firstName": "דוד",
+        "lastName": "מזרחי",
+        "phone": "972531234567",
+        "company": "עסק משפחתי",
+        "customField": ""
+    }
+]
