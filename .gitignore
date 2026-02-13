@@ -1,14 +1,21 @@
-# מניעת העלאת session data ל-Git
+# WhatsApp session data
 .wwebjs_auth/
 .wwebjs_cache/
 session-data/
 
+# Build output
+dist/
+
 # Node modules
 node_modules/
+package-lock.json
 
 # Logs
 *.log
 npm-debug.log*
+
+# Reports (generated at runtime)
+report_*.json
 
 # Environment variables
 .env
