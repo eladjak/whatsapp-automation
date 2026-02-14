@@ -13,3 +13,16 @@ export { createClient } from './client'
 export { loadContacts, loadContactsFromJSON, loadContactsFromCSV } from './contacts'
 export { sendBulkMessages } from './bulk-sender'
 export { getRandomDelay, delay, personalizeMessage } from './utils'
+
+export type { ValidationError, ValidationResult } from './validation'
+export {
+  isValidPhone,
+  validateContact,
+  validateContacts,
+  validateMessageTemplate,
+  validateDelayConfig,
+  formatValidationErrors,
+} from './validation'
+
+export type { LogLevel, AppConfig } from './env-config'
+export { loadAppConfig, printConfig } from './env-config'

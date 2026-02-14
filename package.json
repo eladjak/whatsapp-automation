@@ -12,6 +12,7 @@
     "bulk": "ts-node src/bulk-sender.ts",
     "manage-lists": "ts-node src/list-manager.ts",
     "advanced": "ts-node src/advanced-features.ts",
+    "health": "ts-node src/health-check.ts",
     "clean": "rimraf dist",
     "prebuild": "npm run clean"
   },
